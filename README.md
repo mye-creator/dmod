@@ -10,3 +10,9 @@
 ---
 
 ## Credits
+- Head Developers: 
+Real Toxic Dev
+Dillon
+
+- Idea
+Vagabond.it
