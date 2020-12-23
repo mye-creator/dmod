@@ -10,7 +10,7 @@ const { PORT, DISCORD_TOKEN, MONGO_DB_URL } = process.env;
 
 (async (client) => {
 
-    await mongoose.connect(process.env.MONGOURL, { 
+    await mongoose.connect(MONGO_DB_URL, { 
         useCreateIndex: true,
         useNewUrlParser: true,
         useUnifiedTopology: true,
