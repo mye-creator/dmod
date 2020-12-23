@@ -1,1 +1,8 @@
-# dmod
+# Discord Moderation
+
+## Info
+
+## Features
+
+## Credits
+
