@@ -11,7 +11,7 @@
 
 ## Credits
 - Head Developers: 
-Real Toxic Dev
+Real Toxic Dev,
 Dillon
 
 - Idea
