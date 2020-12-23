@@ -14,5 +14,8 @@
 Real Toxic Dev,
 Dillon
 
-- Idea & Design:
+- Idea:
 Vagabond.it
+
+- Design:
+GamerCreator1
