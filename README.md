@@ -14,5 +14,5 @@
 Real Toxic Dev,
 Dillon
 
-- Idea and Creative Director:
+- Idea & Design:
 Vagabond.it
