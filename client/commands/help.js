@@ -8,8 +8,9 @@ module.exports.run = async (client , message, args) => {
     let embed = new MessageEmbed()
       .setAuthor('dmod help', structures.dmod_transparent)
       .setColor(structures.mainColor)
-      .setThumbnail(MESSAGE_EMBED.thumbnail)
-      .addField('Commands', helpMessage, true)
+      .setDescription('Here is my available commands')
+      .addField('Help', '``dmod.help``', true)
+      .setTimestamp()
 
       if (!args[0]) return message.channel.send(embed)
 
@@ -34,7 +35,6 @@ module.exports.run = async (client , message, args) => {
           let embed2 = new MessageEmbed()
           .setAuthor(`${cmdname} command info`, structures.dmod_transparent)
           .setColor(structures.mainColor)
-          .setThumbnail(MESSAGE_EMBED.thumbnail)
           .addField('Prefix', '``dmod.``', true)
           .addField('Category', `${cmd.help.category}`)
           .addField('Name', `${cmd.help.name}`, true)
@@ -54,11 +54,11 @@ module.exports.run = async (client , message, args) => {
 
     } catch (e) {
         let error = new MessageEmbed()
-        embed2.setTitle('Whoops, Something went wrong!!!')
-        embed2.setColor(structures.mainColor)
-        embed2.setDescription("If this issue continues please contact our Dev Team")
-        embed2.addField("Error", `${e.message}`)
-        embed2.setTimestamp()
+        .setTitle('Whoops, Something went wrong!!!')
+        .setColor(structures.mainColor)
+        .setDescription("If this issue continues please contact our Dev Team")
+        .addField("Error", `${e.message}`)
+        .setTimestamp()
 
     return message.channel.send(error);
     }
