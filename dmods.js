@@ -12,12 +12,12 @@ const { PORT, DISCORD_TOKEN, MONGO_DB_URL } = process.env;
         useUnifiedTopology: true,
         useFindAndModify: false
     });*/
+    
+        let client = await bot.init(DISCORD_TOKEN);
 
     //console.log(colors.yellow(`Connected to the database on `) + colors.underline.green(MONGO_DB_URL));
 
     //await new App(client).listen(PORT || 8080);
 
     //console.log(colors.yellow(`Running on port `) + colors.underline.green(PORT || 8080));
-    
-    await bot.login(client.config.token)
 })()
