@@ -18,7 +18,9 @@
     "discord.js",
     "dashboard",
     "dmod",
-    "discord moderation
+    "discord moderation",
+    "discord",
+    "node"
   ],
   "bugs": {
     "url": "https://github.com/Vagabondit/dmod/issues"
