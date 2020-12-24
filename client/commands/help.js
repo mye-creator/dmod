@@ -44,7 +44,7 @@ module.exports.run = async (client , message, args) => {
           .setTimestamp()
           .setFooter(`Syntax: <> = Required | [] = Optional`, structures.dmod_transparent)
 
-          return message.channel.send(embed);
+          return message.channel.send(embed2);
 
       } else {
 
