@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ParadiseBotList/ParadiseBotList-ReWrite.git"
+    "url": "git+https://github.com/Vagabondit/dmod.git"
   },
   "keywords": [
     "discord.js",
@@ -20,11 +20,11 @@
     "Vapor bot"
   ],
   "bugs": {
-    "url": "https://github.com/ParadiseBotList/ParadiseBotList-ReWrite/issues"
+    "url": "https://github.com/Vagabondit/dmod/issues"
   },
-  "homepage": "https://github.com/ParadiseBotList/ParadiseBotList-ReWrite#readme",
-  "author": "dexter",
-  "license": "ISC",
+  "homepage": "https://github.com/Vagabondit/dmod#readme",
+  "author": "Vagabondit",
+  "license": "MST",
   "dependencies": {
     "discord.js": "^12.2.0",
     "ejs": "^3.1.3",
