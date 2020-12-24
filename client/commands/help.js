@@ -9,7 +9,7 @@ module.exports.run = async (client , message, args) => {
       .setAuthor('dmod help', structures.dmod_transparent)
       .setColor(structures.mainColor)
       .setDescription('Here is my available commands')
-      .addField('Help', '``dmod.help``', true)
+      .addField('Help Command', '``dmod.help``', true)
       .setTimestamp()
 
       if (!args[0]) return message.channel.send(embed)
