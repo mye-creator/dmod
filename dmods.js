@@ -13,7 +13,7 @@ const { PORT, DISCORD_TOKEN, MONGO_DB_URL } = process.env;
         useFindAndModify: false
     });*/
     
-        let client = await bot.init(DISCORD_TOKEN);
+    let client = await bot.init(DISCORD_TOKEN);
 
     //console.log(colors.yellow(`Connected to the database on `) + colors.underline.green(MONGO_DB_URL));
 
