@@ -1,6 +1,4 @@
 //const mongoose = require('mongoose');
-
-require ('dotenv').config();
 require ('module-alias/register');
 
 const colors = require('colors');
