@@ -1,7 +1,5 @@
 //const mongoose = require('mongoose');
-require ('module-alias/register');
 
-const colors = require('colors');
 const bot = require('./client/bot-app');
 const App = require('./modules/web-app');
 const { PORT, DISCORD_TOKEN, MONGO_DB_URL } = process.env;
