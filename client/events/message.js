@@ -69,8 +69,9 @@ module.exports = (client, message) => {
 
         ratetime.delete(message.author.id + commands)
     }, cmd.limits.cooldown);
+    
+      cmd.run(client, message, args)
   }
-       cmd.run(client, message, args)
 
        const missingPerms = (member, perms) => {
         const missingPerms = member.permissions.missing(perms)
