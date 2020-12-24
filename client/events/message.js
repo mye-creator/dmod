@@ -12,11 +12,11 @@ module.exports = (client, message) => {
 
     const args = message.content.split(/ +/g);
 
-    const commands = args.shift().slice(prefix.length).toLowerCase();
+    const commands = args.shift().slice(botPrefix.length).toLowerCase();
 
     const cmd = client.commands.get(commands) || client.aliases.get(commands);
 
-    if (!message.content. toLowerCase().startsWith(prefix)) return;
+    if (!message.content. toLowerCase().startsWith(botPrefix)) return;
 
     let not_a_command = new MessageEmbed()
     .setAuthor('Command Not Found!!', imgStructure.dmod_transparent)
